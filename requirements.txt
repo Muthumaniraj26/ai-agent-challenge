@@ -1,0 +1,12 @@
+Core Libraries for Parsing and Data Handling
+pandas
+pdfplumber
+numpy
+
+AI Agent and Workflow
+langgraph
+groq
+python-dotenv
+
+Testing
+pytest
