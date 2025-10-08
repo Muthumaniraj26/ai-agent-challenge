@@ -14,8 +14,8 @@ Follow these steps to set up and run the project:
 ---Clone the Repository:
 Clone your forked repository to your local machine.
 
-git clone <your-repository-url>
-cd <repository-name>
+git clone https://github.com/Muthumaniraj26/ai-agent-challenge
+cd https://github.com/Muthumaniraj26/ai-agent-challenge
 
 ---Set Up the Environment:
 Create and activate a Python virtual environment.
