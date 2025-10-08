@@ -1,9 +1,13 @@
 Agent-as-Coder Challenge: Bank Statement Parser
+
 Overview
+
 This project features an AI agent developed as part of the Karbon AI Challenge. The agent's primary goal is to automatically generate a Python parser for bank statement PDFs. The system is built using LangGraph and the Groq API. When executed, the agent writes a custom parser script (icici_parser.py) and verifies its correctness, demonstrating an automated code generation workflow.
 
 Demo Video
+
 Click here to watch the 60-second demo video.
+
 (Note: Please replace the placeholder link above with the actual link to your demo video after you've recorded it.)
 
 Agent Architecture
