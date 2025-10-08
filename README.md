@@ -4,11 +4,6 @@ Overview
 
 This project features an AI agent developed as part of the Karbon AI Challenge. The agent's primary goal is to automatically generate a Python parser for bank statement PDFs. The system is built using LangGraph and the Groq API. When executed, the agent writes a custom parser script (icici_parser.py) and verifies its correctness, demonstrating an automated code generation workflow.
 
-Demo Video
-
-Click here to watch the 60-second demo video.
-
-(Note: Please replace the placeholder link above with the actual link to your demo video after you've recorded it.)
 
 Agent Architecture
 The agent operates as a simple, efficient state machine built with LangGraph, consisting of three main steps (nodes). The workflow begins at the retriever node, which holds the final, human-perfected Python code for the parser—a solution derived from a rigorous debugging process that identified and handled inconsistencies in the test data. This code is then passed to the writer node, which saves it to the custom_parsers/icici_parser.py file. Finally, the tester node is triggered, which runs the newly created parser against a sample PDF and CSV to verify its correctness. Since the initial code is guaranteed to be correct, the agent's self-correction loop is not needed, and the process concludes successfully on the first attempt.
